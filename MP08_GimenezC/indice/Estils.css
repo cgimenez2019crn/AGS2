@@ -1,0 +1,25 @@
+p{width:800px;
+  margin: 0 auto;
+  font-size:24px;
+  line-height:32px;
+  text-aling:justify;
+  }
+  img{width:100px;}
+  div{width:800px;
+      margin:0 auto;}
+  .esquerra{float:left;
+  marngi-left:20px;
+  visivility:hien;}
+  .dreta   {float:right;
+            marngi-left:20px;}
+  .capitular{float:left;
+            marging:20px;}
+  .incial::first-letter{color:#FFF;
+                        text-indent:-16px}
+  .incial{color:pink;}
+  .c1{whit:390px
+      bakground-color:yelow;
+      float:left;}
+  .c2{whit:390px
+      bakground-color:yelow;
+      float:right;}
