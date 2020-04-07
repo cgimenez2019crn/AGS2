@@ -1,0 +1,50 @@
+.cap{background-color:#B659D5;
+    }
+
+.secion{width:100%;
+        height:80px;
+        background-color:white;
+        border: 1px;
+        border-color:black;
+        border-style: solid;
+        display: flex;
+        align-items: stretch;}
+
+.total{position:fixed;
+      align-items: center;
+      background-color:#B659D5;
+      margin-left:auto;
+      margin-right: auto;
+      top: 640px;
+      border-radius: 14px;
+      width: 341px;
+      height: 59px;
+      margin: 0 auto;
+      }
+
+  p{color:Gray;
+    text-align:center;
+    font-size: 30px;}
+
+
+
+#conten{margin-top:80px;
+        }
+
+#producto{margin-left: 5px;}
+
+#precio{width:200px;
+        height:60px;
+        border-radius: 20px;
+        background:#E3BFE0;
+        margin:auto;
+        }
+
+#comandas{width:100px;
+          height:30px;
+          border-radius:50px;
+          background:purple;
+          font-size:5px;
+          margin-top: auto;
+          margin-bottom: auto;
+          }

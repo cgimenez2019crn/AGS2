@@ -1,0 +1,29 @@
+.peu{background-color:blue;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    height: 80px;
+    }
+
+
+<div class="boto"></div>
+    .boto{
+      position:fixed;
+      bottom:140px;
+      right:40px;
+      height:60px;
+      width:60px;
+      border-radius:30px;
+      background-color: green;
+      }
+
+      <div class="cos">
+      </div>
+
+      <div class="peu">
+      <div class="a1"><div>
+      <div class="a1"><div>
+      <div class="a1"><div>
+      <div class="a1"><div>
+      </div>

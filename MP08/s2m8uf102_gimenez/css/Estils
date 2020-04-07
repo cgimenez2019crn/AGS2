@@ -1,0 +1,11 @@
+div{ background-image:url(Imag2/fonsgris.png);
+    background-image:no-repeat;
+    height:313px;
+    width:675px;}
+
+#contenidor{width:675px;
+            background-image:none;
+            margin:0 auto;}
+  body{
+    font-family:Arial Helvetica sans-serif;
+                      }

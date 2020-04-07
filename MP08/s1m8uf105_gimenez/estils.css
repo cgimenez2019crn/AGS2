@@ -1,0 +1,50 @@
+p{ width:80px;
+    height:80px;
+    background-color:yellow;
+    border-color: white;
+    box-shadow: 2px 2px 2px inset;
+    border-radius:40px;
+    top:-10px;
+    left:10px;
+    background-color:white;
+    box-shadow: 2px 2px 2px black,
+              inset 7px 7px 20px brown;
+              top:200px;
+               margin: 10px;}
+
+ul{overflow: visible;
+  background-color: green;
+  margin:0;
+  padding:0;
+  width:800px;
+  clear:both;
+  margin-bottom:100px;
+}
+
+li{
+  width:100px;
+  height:100px;
+  margin:0;
+  Padding:0;
+  display:block;
+  float:left;
+  background-color:green;}
+
+  li:nth-child(2n){background-color:black;}
+  ul:nth-child(2n) li {background-color:black;}
+  ul:nth-child(2n) li:nth-child(2n){background-color:green;}
+  ul:nth-child(n+6) p { background-color:black;
+  Position-relative:400px;}
+
+
+  ficha.{  border-radius:50px;
+          background-color:#6C3;}
+
+
+
+  div{
+    background-color:green;
+    width: 800px;
+    margin:0 auto;
+    padding: 20px;
+    }

@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  overflow: visible;
+  position: relative;
+}
+
+.esquerra {
+  float: left;
+  clear: left;
+}
+
+.dreta {
+  float: right;
+  clear: right;
+}
+
+.gafas {
+  width: 500px;
+  height: 200px;
+  background-color: red;
+  margin: 0 auto;
+  position:
+  x-index: 100px;
+  top: 150px;
+  position: absolute;
+}
+
+.cap {
+  width: 500px;
+  height: 750px;
+  background-color:#F3E1AA;
+  margin: 0 auto;
+  border-radius: 200px 200px 300px 300px;
+}
+
+.pel {
+  height: 150px;
+  background-color:#432604;
+  border-radius: 150px 150px 0px 0px ;
+
+}
+
+.cabello{width: 200px;
+        height: 100px;
+        border-radius: 50% 50% 0px 0px ;
+        background-color:#432604;
+        margin:0 auto;
+         border-color: #432604 #432604 red  #432604;
+         border-width: 6px;
+         border-style: solid;
+    }
+
+.ulls {
+  height: 0px;
+  clear: both;
+}
+
+.celles {
+  height: 40px;
+clear: both;
+margin-top:130px;
+}
+
+.cella {
+  height: 70px;
+  width: 200px;
+  margin-left:20px;
+  margin-right:20px;
+  background-color:#F3E1AA;
+  border-radius: 50%;
+  border-top: 20px solid #3F2303;
+  }
+
+
+.parpelles{
+  height: 80px;
+  background-color:;
+  margin:0;
+}
+.parpella{
+  height: 60px;
+}
+
+.pestanyes {
+  height: 100px;
+  background-color:;
+  margin: 0 75px;
+
+}
+
+.pestanya {
+  height: 60px;
+}
+
+.irisos {
+  height: 30px;
+  width: 310px;
+  background-color:;
+  top:-155px;
+  left:96px;
+  float: inherit;
+
+}
+
+.iris {
+  height:30px;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%;
+  position: relative;
+border:solid 15px #392003;}
+
+.iris.esquerra{
+z-index:20;
+}
+
+.iris.dreta {
+z-index:20;
+}
+
+.pupiles {
+  height: 50px;
+  background-color:;
+  border-radius: 50%;
+}
+
+.pupila {
+  width: 100px;
+  height:100px;
+  background-color:white;
+  border-radius: 50%;
+  position: relative;
+  top:-300px;
+  margin:70px;
+}
+
+.orelles {
+  height: 100px;
+  bottom: 350px;
+  }
+
+.orella.esquerra{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color:#F98585;
+  margin-left: 20px;
+}
+
+.orella.dreta {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color:#F98585;
+  margin-right:20px;
+}
+
+.nas {
+  height:100px;
+  width:100px;
+  background-color:;
+  bottom: 200px;
+  margin: 0 auto;
+  bottom:550;
+  box-shadow: #D5C28A 0px 5px 0px ;
+  border-radius: 50%;
+  }
+
+.foratnas {
+  height: 5px;
+  background-color: ;
+}
+
+.boca {
+  height: 100px;
+  width:200px;
+  background:;
+  margin: 0 auto;
+  bottom: 180px;
+  border-radius: 50%;
+
+  box-shadow: red 0rem 1rem;
+  transform:translate(-0);
+}
