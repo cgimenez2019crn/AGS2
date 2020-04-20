@@ -1,0 +1,25 @@
+body{
+  background-color: pink;
+}
+
+h1{
+  font-family:Helvetica, Arial, Sans-serif;
+  margin:0 auto;
+  margin-top: 30px;
+  font-size: 40px;
+  color: black;
+   text-align:center;
+
+}
+
+.contenedor{
+  margin: 0 auto;
+  align:center;
+  height:1000px;
+  width:960px;
+}
+
+#imggran{
+  height:589px;
+  width:960px;
+}

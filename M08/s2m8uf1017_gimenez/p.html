@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+
+  *{position:relative;
+    font-family:Helvetica,Sant-serif;
+    text-align:center;}
+
+  ul{ width:960px;
+      margin:auto;}
+
+  li{
+    height:420;
+    width:180px;
+    margin:4px;
+    background:repeating-linear-gradient(90deg,#ddd 0px,#ddd 4px,red 4px,red 8px),
+              repeating-linear-gradient(,#ddd 0px,#ddd 4px,transparent 4px,transparent 8px);
+    display:block;
+    float:left;
+    padding:2px;
+
+  }
+  h1{
+
+    width:100px;
+    border:5px solid turquoise;
+    height:100px;
+    background:linear-gradient(135deg,navy,black);
+    border-radius:5px solid turquoise;
+    box-shadow:1px 1px 1px;
+    margin:20px auto;
+    line-height:100px;
+    font-size: 72px;
+    color: turquoise;
+    }
+    .desenfocar img{
+      -webkit-filter:blur(5px);}
+
+    .gris img{
+          -webkit-filter:grayscale(100%);}
+
+    .ombra img{
+          -webkit-filter:drop-shadow(6px 6px 6px orange);}
+
+    .sepia img{-webkit-filter:sepia(100%);}
+
+    .luminositat img{-webkit-filter:brightness(900%);}
+
+    .contrast img{-webkit-filter:contrast(570%);}
+
+    .tono img{
+      -webkit-filter: hue-rotate(200000deg);
+    }
+
+    .invertir img{-webkit-filter:invert(180%);}
+
+    .satura img{-webkit-filter:saturate(100000000%);}
+
+    .opacitat img{-webkit-filter:opacity(30%);}
+
+    div {
+      }
+
+  </style>
+</head>
+<body>
+  <h1>Ps</h1>
+  <ul>
+    <li class="efectes desenfocar">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width=100% alt="">
+      <h2>desnfocar</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+  </ul>
+
+  <ul>
+    <li class="efectes gris">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width=100% alt="">
+      <h2>grisos</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+  </ul>
+
+  <ul>
+    <li class="efectes ombra">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width=100% alt="">
+      <h2>ombra paralela</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+  </ul>
+
+  <ul>
+    <li class="efectes sepia">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width=100% alt="">
+      <h2>sepia</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+  </ul>
+
+  <ul>
+    <li class="efectes luminositat">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width=100% alt="">
+      <h2>luminositat</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+  </ul>
+
+  <ul>
+    <li class="efectes contrast">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width=100% alt="">
+      <h2>Contrast</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+  </ul>
+
+  <ul>
+    <li class="efectes tono">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width=100% alt="">
+      <h2>to</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+  </ul>
+
+  <ul>
+    <li class="efectes invertir">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width=100% alt="">
+      <h2>invertir</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+  </ul>
+
+  <ul>
+    <li class="efectes satura">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width=100% alt="">
+      <h2>saturar</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+  </ul>
+
+  <ul>
+    <li class="efectes opacitat">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width=100% alt="">
+      <h2>opacitat</h2>
+      <input type="range"></input>
+      <p></p>
+    </li>
+  </ul>
+
+
+
+
+</body>
+</html>
