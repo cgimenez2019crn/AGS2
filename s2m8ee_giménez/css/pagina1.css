@@ -27,7 +27,9 @@ ul{ position: fixed;
 
    }
 
-.img{border-radius: 0.625rem;}
+.img{border-radius: 0.625rem;
+    margin:20px;
+    margin-top:60px;}
 
 li a {display: block;
 }
@@ -58,29 +60,12 @@ li{display: block;
 #menu2{margin-left: 60%;
       position: absolute;
     }
+h1{display:inline-block;}
 
-h1{color:#ccc;
-  margin-top:50px;
-  }
+.text{float:right;
+      height: 100px;
+      width:80%;
+      margin-top:50px;
+      margin-right: 70px;
 
-
-
-.f1{width:172px;
-    height:270px;
-    float:left;
-    margin-left:1%;
-    margin-right:1%;
-    border-radius: 0.625rem;
-
-    }
-
-a:hover{-webkit-filter: grayscale(100%);
-          -moz-filter: grayscale(100%);
-          filter: grayscale(100%);
-          }
-
-#t{margin-left: 50px;
-    }
-
-div p{float:left;
       }
